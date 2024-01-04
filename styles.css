@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    background-color: white;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+  }
+  .list ul li{
+    list-style: none;
+    text-decoration: none;
+  }
+  .list ul{
+    display: flex;
+    justify-content: center;
+  }
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li a:hover{
+    color: gray;
+    font-size: 25px;
+}
+.list ul li{
+    margin: 0 23px;
+    padding: 10px;
+    font-size: 30px;
+}
+.logo img{
+    width: 110px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.login button{
+  border: none;
+  outline: none;
+border-radius: 5px;
+    color: black;
+    width: 50px;
+    cursor: pointer;
+}
+.login button:hover{
+    color: rgba(128, 128, 128, 0.381);
+}
+.login input{
+  
+  outline: none;
+    width: 200px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.first-section{
+        display: grid;
+        place-items: center;
+        margin-top: 80px;
+        margin-right: 25px;
+        font-size: 50px;
+    
+}
+.mid-section{
+  font-size: 80px;
+}
+.purple{
+  color: rgb(118, 73, 13);
+}
+.btn{
+  border: none;
+  outline: none;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 20px;
+background: white;
+color: black;
+}
+.btn:hover{
+  color: grey;
+}
+main{
+  background: url(frame.jpg);
+}
+ /*hr{
+  border: 0;
+  background-color: rgb(103, 61, 142);
+  height: 1.2px;
+  margin: 40px 80px;
+}*/
+.second-section h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.box button{
+  border: none;
+  outline: none;
+  margin: 50px;
+  border-radius: 20px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 20px;
+   
+    width: 200px;
+}
+.box button:hover{
+  color: grey;
+  
+}
+.second-section{
+  background-color: rgba(128, 128, 128, 0.954);
+}
+.second-section button{
+  transform: translateY(-50%);
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+.btn{
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  cursor: pointer;
+}
+.btn.active{
+  background: #553ff0;
+}
+
+
+ 
